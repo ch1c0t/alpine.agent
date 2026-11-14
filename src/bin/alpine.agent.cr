@@ -14,4 +14,7 @@ when 1
   end
 end
 
-puts "alpine.agent is made with Crystal."
+require "../logger"
+require "../alpine"
+
+Alpine::CLI.run
