@@ -1,0 +1,1 @@
+puts "alpine.agent is made with Crystal."

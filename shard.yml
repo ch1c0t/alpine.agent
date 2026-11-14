@@ -1,0 +1,9 @@
+---
+name: alpine.agent
+version: 0.0.0
+authors:
+- Anatoly Chernov <chertoly@gmail.com>
+targets:
+  alpine.agent:
+    main: src/bin/alpine.agent.cr
+crystal: ">= 1.20.3"
